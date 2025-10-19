@@ -1,0 +1,16 @@
+Discard Your Changes
+Delete unstaged changes to one file:
+git restore <file>
+OR
+git checkout <file>
+Delete all staged and unstaged changes to one
+file:
+git restore --staged --worktree <file>
+OR
+git checkout HEAD <file>
+Delete all staged and unstaged changes:
+git reset --hard
+Delete untracked files:
+git clean
+'Stash' all staged and unstaged changes:
+git stash
