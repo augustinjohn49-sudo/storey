@@ -1,0 +1,16 @@
+Edit History
+"Undo" the most recent commit (keep your
+working directory the same):
+git reset HEAD^
+Squash the last 5 commits into one:
+git rebase -i HEAD~6
+Then change "pick" to "fixup" for any commit you
+want to combine with the previous one
+Undo a failed rebase:
+git reflog BRANCHNAME
+Then manually find the right commit ID in the
+reflog, then run:
+git reset --hard <commit>
+Change a commit message (or add a file you
+forgot):
+git commit --amend
