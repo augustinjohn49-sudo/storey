@@ -1,13 +1,4 @@
-Move Between Branches
-Switch branches:
-git switch <name>
-OR
-git checkout <name>
-Create a branch:
-git switch -c <name>
-OR
-git checkout -b <name>
-List branches:
+
 git branch
 List branches by most recently committed to:
 git branch --sort=-committerdate
@@ -15,3 +6,6 @@ Delete a branch:
 git branch -d <name>
 Force delete a branch:
 git branch -D <name>
+=======
+Partly my goal was to create a guide that could be used by someone working in any field. But I was also curious about the shape of the intersection. And one thing this exercise shows is that it does have a definite shape; it's not just a point labelled "work hard."
+>>>>>>> b6350c4c0017915fc391c6fe05916eb606a66143
